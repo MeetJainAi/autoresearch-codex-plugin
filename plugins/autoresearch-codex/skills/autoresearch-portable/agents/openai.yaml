@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portable Autoresearch"
+  short_description: "Bootstrap autoresearch on CPU, CUDA, or MPS"
+  default_prompt: "Use $autoresearch-portable to set up a Codex-ready autoresearch workspace for this machine."
