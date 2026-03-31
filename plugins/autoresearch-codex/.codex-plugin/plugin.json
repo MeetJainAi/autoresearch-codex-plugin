@@ -1,0 +1,35 @@
+{
+  "name": "autoresearch-codex",
+  "version": "0.1.1",
+  "description": "Portable autoresearch setup for Codex on CPU-first local hardware, with CUDA and Apple Silicon defaults.",
+  "author": {
+    "name": "Autoresearch Codex Contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "autoresearch",
+    "codex",
+    "llm-training",
+    "cpu",
+    "cuda",
+    "mps"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Autoresearch Codex",
+    "shortDescription": "Portable autoresearch bootstrap for Codex",
+    "longDescription": "Installs a Codex skill that bootstraps a portable Karpathy-style autoresearch workspace, choosing CPU, CUDA, or Apple Silicon defaults automatically and generating the local experiment loop files for Codex.",
+    "developerName": "Autoresearch Codex Contributors",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Bootstrap portable autoresearch in this repo",
+      "Set up autoresearch for this CPU-only VPS",
+      "Prepare Codex to run autoresearch on Mac"
+    ],
+    "brandColor": "#1F6FEB"
+  }
+}
