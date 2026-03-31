@@ -1,0 +1,7 @@
+__pycache__/
+*.py[oc]
+.DS_Store
+.venv/
+.pytest_cache/
+*.log
+*.tmp
